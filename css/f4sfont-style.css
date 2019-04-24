@@ -1,0 +1,140 @@
+a {
+  background-color: transparent;
+}
+
+body {
+  color: #ebebeb;
+  background-color: #003f62;
+}
+
+a {
+  color: #ffbf00;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #ffbf00;
+  text-decoration: underline;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small,
+.h1 .small, .h2 .small, .h3 .small,
+.h4 .small, .h5 .small, .h6 .small {
+  color: #ebebeb;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+p {
+  margin: 0 0 10.5px;
+}
+
+.text-muted {
+  color: #4e5d6c;
+}
+
+.text-primary {
+  color: #ffbf00;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #cc9900;
+}
+
+.text-warning {
+  color: #bf8f00;
+}
+
+a.text-warning:hover,
+a.text-warning:focus {
+  color: #8c6900;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: #ffbf00;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+  background-color: #cc9900;
+}
+
+.bg-warning {
+  background-color: #bf8f00;
+}
+
+a.bg-warning:hover,
+a.bg-warning:focus {
+  background-color: #8c6900;
+}
+
+.page-header {
+  padding-bottom: 9.5px;
+  margin: 42px 0 21px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+caption {
+  color: #4e5d6c;
+}
+
+.label {
+  color: #ffffff;
+}
+
+a.label:hover,
+a.label:focus {
+  color: #ffffff;
+}
+
+.label-default {
+  background-color: #4e5d6c;
+}
+
+.label-default[href]:hover,
+.label-default[href]:focus {
+  background-color: #39444e;
+}
+
+.label-primary {
+  background-color: #ffbf00;
+}
+
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+  background-color: #cc9900;
+}
+
+.label-warning {
+  background-color: #bf8f00;
+}
+
+.label-warning[href]:hover,
+.label-warning[href]:focus {
+  background-color: #8c6900;
+}
+
+.text-primary,
+.text-primary:hover {
+  color: #ffbf00;
+}
+
+.text-warning,
+.text-warning:hover {
+  color: #bf8f00;
+}
+
+.page-header {
+  border-bottom-color: #333333;
+}
