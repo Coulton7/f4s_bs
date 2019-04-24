@@ -32,9 +32,6 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/avtfonts-style.css
-stylesheets[all][] = css/avtregions-style.css
-stylesheets[all][] = css/avtblock-style.css
-stylesheets[all][] = css/avtfield-style.css
-
-scripts[] = js/headerbuttons.js
+stylesheets[all][] = css/f4sfont-style.css
+stylesheets[all][] = css/f4sblock-style.css
+stylesheets[all][] = css/f4sfield-style.css
