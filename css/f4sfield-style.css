@@ -431,6 +431,10 @@ fieldset[disabled] .btn-link:focus {
   border-color: #ffbf00;
 }
 
+.navbar-nav{
+  background-color: #ffbf00;
+}
+
 .nav .nav-divider {
   background-color: #e5e5e5;
 }
