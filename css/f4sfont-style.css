@@ -7,7 +7,9 @@ body {
   background-color: #003f62;
 }
 
-a {
+a,
+a:visited,
+a:link {
   color: #ffbf00;
   text-decoration: none;
 }
