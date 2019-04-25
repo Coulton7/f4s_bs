@@ -21,6 +21,7 @@
 }
 
 .table .table {
+  font-size: inherit;
   background-color: #003f62;
 }
 
@@ -220,7 +221,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #ffbf00;
+  background-color: #ffbf00!important;
   border-color: #ffffff;
 }
 
