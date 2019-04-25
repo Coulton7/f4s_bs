@@ -20,7 +20,7 @@
   border-top: 2px solid #333333;
 }
 
-.table .table {
+table, .table {
   font-size: inherit;
   background-color: #003f62;
 }
@@ -236,7 +236,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #cc9900;
+  background-color: #cc9900!important;
   border-color: #e0e0e0;
 }
 
@@ -893,7 +893,7 @@ button.list-group-item-warning.active:focus {
   .nav-tabs.nav-justified>.active>a:focus {
     border-bottom-color: #333333;
   }
-  
+
   .nav-tabs-justified>li>a {
     border-bottom: 1px solid #333333;
   }
