@@ -1,7 +1,7 @@
 blockquote {
   padding: 10.5px 21px;
   margin: 0 0 21px;
-  border-left: 5px solid #333333;
+  border-left: 5px solid #011f2f;
 }
 
 blockquote p:last-child,
@@ -29,7 +29,7 @@ blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
   text-align: right;
-  border-right: 5px solid #333333;
+  border-right: 5px solid #011f2f;
   border-left: 0;
 }
 
@@ -53,7 +53,7 @@ blockquote.pull-right .small:after {
 
 .jumbotron {
   color: inherit;
-  background-color: #333333;
+  background-color: #012f48;
 }
 
 .jumbotron>hr {
