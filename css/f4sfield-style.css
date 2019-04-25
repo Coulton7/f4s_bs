@@ -478,7 +478,7 @@ fieldset[disabled] .btn-link:focus {
 .pagination>li>span {
   color: #ebebeb;
   text-decoration: none;
-  background-color: #333333;
+  background-color: #012f48;
   border: 1px solid transparent;
 }
 
@@ -487,8 +487,8 @@ fieldset[disabled] .btn-link:focus {
 .pagination>li>a:focus,
 .pagination>li>span:focus {
   z-index: 2;
-  color: #ebebeb;
-  background-color: #2b2b2b;
+  color: #e6ac00;
+  background-color: #011f2f;
   border-color: transparent;
 }
 
