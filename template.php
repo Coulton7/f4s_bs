@@ -14,6 +14,7 @@ function f4s_bs_preprocess_page(&$vars) {
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/contact-icon.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/reg-mark.min.js');
+  drupal_add_js(drupal_get_path('theme', 'f4s_bs').'/js/sticky-scroll.js');
 }
 
 function f4s_bs_theme(){
