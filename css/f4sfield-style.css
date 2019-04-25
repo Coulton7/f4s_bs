@@ -138,6 +138,10 @@ textarea {
   color: #ebebeb;
 }
 
+.block-search .input-group{
+  display: inline-flex;
+}
+
 .has-warning .form-control-feedback {
   color: #bf8f00;
 }
