@@ -215,10 +215,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   width: 100%;
 }
 
-.sticky + .main-container {
-  padding-top: 60px;
-}
-
 .tabs--primary.nav li.active a.active{
   color: #ebebeb;
   background: #003f62;

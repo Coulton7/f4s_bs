@@ -1,15 +1,33 @@
-window.onscroll = function() {navFunction()};
+(function($){
 
-var navbar = document.getElementById("navbar");
+$(document).ready(function () {
+    "use strict";
+    var nav = $('nav'),
+        body = $('body'),
+        windowScreen = $(window),
+        navOffset = nav.offset().top,
+        previousScroll = 0;
 
+    if (windowScreen.scrollTop() >= navOffset && !nav.hasClass('sticky')) {
+        nav.addClass('sticky');
+        $(body).css({paddingTop : nav.css('height')});
+    }
+    $(window).on('scroll', function () {
 
-var sticky = navbar.offsetTop;
+        if (windowScreen.scrollTop() >= navOffset && !nav.hasClass('sticky')) {
+            nav.addClass('sticky');
+            $(body).css({paddingTop : nav.css('height')});
+        }
 
+        if (windowScreen.scrollTop() < navOffset && nav.hasClass('sticky')) {
+            nav.removeClass('sticky');
+            $(body).css({paddingTop : 0});
+        }
 
-function navFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+        if ($(window).scrollTop() === $(document).height() - $(window).height()) {
+            window.console.log('done');
+        }
+
+    });
+});
+})(jQuery);
