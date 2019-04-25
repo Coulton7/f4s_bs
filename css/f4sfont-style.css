@@ -169,3 +169,8 @@ a.label:focus {
 .page-header {
   border-bottom-color: #333333;
 }
+
+.taxonomy-term-description{
+  padding-bottom: 3em;
+  padding-top: 2.5em;
+}
