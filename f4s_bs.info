@@ -33,5 +33,6 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/f4sfont-style.css
+stylesheets[all][] = css/f4sregion-style.css
 stylesheets[all][] = css/f4sblock-style.css
 stylesheets[all][] = css/f4sfield-style.css
