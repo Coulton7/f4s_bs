@@ -315,13 +315,13 @@
 
 		<footer>
 			<?php if (!empty($page['footer'])): ?>
-			  <div class="footer <?php print $container_class; ?> footer-background">
+			  <div class="footer <?php print $container_class; ?>">
 				<?php print render($page['footer']); ?>
 			</div>
 			<?php endif; ?>
 
 			<?php if ($page['footer_lower']): ?>
-				<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
+				<div class="footer_lower <?php print $container_class; ?> ">
 					<div class="section-shadow">
 						<?php print render($page['footer_lower']);?>
 					</div>
