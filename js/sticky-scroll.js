@@ -2,8 +2,8 @@
 
 $(document).ready(function () {
     "use strict";
-    var nav = $('nav'),
-        body = $('body'),
+    var nav = $('.navbar'),
+        body = $('.main-container'),
         windowScreen = $(window),
         navOffset = nav.offset().top,
         previousScroll = 0;
