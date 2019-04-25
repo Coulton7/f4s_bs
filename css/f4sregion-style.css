@@ -235,7 +235,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .breadcrumb{
-  background: #003f62;
+  background: #003f62!important;
 }
 
 .region-sidebar-second .block{
