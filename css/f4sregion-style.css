@@ -243,3 +243,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .region-sidebar-second .block{
   margin-bottom: 1em;
 }
+
+.well{
+  background-color: #011f2f!important;
+}
