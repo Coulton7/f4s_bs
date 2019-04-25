@@ -93,6 +93,7 @@ caption {
 
 .label {
   color: #ffffff;
+  font-size: inherit;
 }
 
 a.label:hover,

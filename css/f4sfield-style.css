@@ -89,6 +89,8 @@ table .text-muted,
 
 .form-control {
   color: #003f62;
+  height: inherit;
+
 }
 
 .has-warning .help-block,
