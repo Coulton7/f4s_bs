@@ -48,6 +48,10 @@ p {
   color: #ffbf00;
 }
 
+.block-title{
+  color: #ffffff;
+}
+
 a.text-primary:hover,
 a.text-primary:focus {
   color: #cc9900;
@@ -89,6 +93,14 @@ a.bg-warning:focus {
 
 caption {
   color: #4e5d6c;
+}
+
+label{
+  font-size: inherit;
+}
+
+.control-label{
+  font-size: inherit;
 }
 
 .label {
