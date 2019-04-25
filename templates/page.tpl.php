@@ -91,46 +91,7 @@
 
 
 		<div class="col-sm-10 col-xs-11 fullscreen">
-			<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
-				<div class="<?php print $container_class; ?>">
-					<div class="navbar-header">
-
-						<?php if (!empty($site_name)): ?>
-							<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-						<?php endif; ?>
-
-						<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-								<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						<?php endif; ?>
-					</div>
-				</div>
-
-				<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-
-					<div class="navbar-collapse collapse">
-						<div class="container-fluid navbar-container">
-
-							<nav role="navigation">
-								<?php if (!empty($primary_nav)): ?>
-									<?php print render($primary_nav); ?>
-								<?php endif; ?>
-
-								<?php if (!empty($page['navigation'])): ?>
-									<?php print render($page['navigation']); ?>
-								<?php endif; ?>
-							</nav>
-						</div>
-					</div>
-					<div class="section-shadow-menu"></div>
-				<?php endif; ?>
-
-			</header>
 		</div>
 	</div>
 
@@ -151,6 +112,47 @@
 			<?php print render($page['preface']);?>
 	</div>
 	<?php endif; ?>
+
+	<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+
+		<div class="<?php print $container_class; ?>">
+			<div class="navbar-header">
+
+				<?php if (!empty($site_name)): ?>
+					<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+				<?php endif; ?>
+
+				<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<?php endif; ?>
+			</div>
+		</div>
+
+		<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+
+			<div class="navbar-collapse collapse">
+				<div class="container-fluid navbar-container">
+
+					<nav role="navigation">
+						<?php if (!empty($primary_nav)): ?>
+							<?php print render($primary_nav); ?>
+						<?php endif; ?>
+
+						<?php if (!empty($page['navigation'])): ?>
+							<?php print render($page['navigation']); ?>
+						<?php endif; ?>
+					</nav>
+				</div>
+			</div>
+			<div class="section-shadow-menu"></div>
+		<?php endif; ?>
+
+	</header>
 
 	<?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-eq-height">
