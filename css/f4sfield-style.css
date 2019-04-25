@@ -69,6 +69,10 @@ table, .table {
   background-color: #1f1f1f;
 }
 
+.table>thead>tr.info>{
+  background-color: #034f7a!important;
+}
+
 .table-hover>tbody>tr>td.warning:hover,
 .table-hover>tbody>tr>th.warning:hover,
 .table-hover>tbody>tr.warning:hover>td,
