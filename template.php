@@ -10,7 +10,6 @@ function f4s_bs_preprocess_page(&$vars) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
     }
 
-	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/contact-icon.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/reg-mark.min.js');
