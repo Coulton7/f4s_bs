@@ -24,10 +24,6 @@ $(document).ready(function () {
             $(body).css({paddingTop : 0});
         }
 
-        if ($(window).scrollTop() === $(document).height() - $(window).height()) {
-            window.console.log('done');
-        }
-
     });
 });
 })(jQuery);
