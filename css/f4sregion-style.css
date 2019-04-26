@@ -306,4 +306,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .navbar-nav{
   margin: auto;
 }
+
+.breadcrumb-wrap{
+  margin-top: -2.5em;
+}
+
+.breadcrumb{
+  padding: initial;
+}
 }
