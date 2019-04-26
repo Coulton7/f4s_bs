@@ -99,7 +99,7 @@ table a,
 
 table .text-muted,
 .table .text-muted {
-  color: #4e5d6c;
+  color: #d0cccc;
 }
 
 .form-control {
@@ -375,7 +375,7 @@ fieldset[disabled] .btn-warning.focus {
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-  color: #4e5d6c;
+  color: #d0cccc;
 }
 
 .btn-block {
@@ -555,7 +555,7 @@ fieldset[disabled] .btn-link:focus {
 
 .badge {
   color: #ebebeb;
-  background-color: #4e5d6c;
+  background-color: #d0cccc;
 }
 
 a.badge:hover,
@@ -643,7 +643,7 @@ a.thumbnail.active {
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
 .list-group-item.disabled:focus {
-  color: #4e5d6c;
+  color: #d0cccc;
   background-color: #ebebeb;
 }
 
@@ -656,7 +656,7 @@ a.thumbnail.active {
 .list-group-item.disabled .list-group-item-text,
 .list-group-item.disabled:hover .list-group-item-text,
 .list-group-item.disabled:focus .list-group-item-text {
-  color: #4e5d6c;
+  color: #d0cccc;
 }
 
 .list-group-item.active,
