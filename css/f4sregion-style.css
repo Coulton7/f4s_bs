@@ -302,4 +302,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .navbar.container-fluid{
   margin-top: 0;
 }
+
+.navbar-nav{
+  margin: auto;
+}
 }
