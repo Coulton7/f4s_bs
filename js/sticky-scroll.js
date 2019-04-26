@@ -3,7 +3,7 @@
 $(document).ready(function () {
     "use strict";
     var nav = $('.navbar'),
-        body = $('.main-container'),
+        body = $('body'),
         windowScreen = $(window),
         navOffset = nav.offset().top,
         previousScroll = 0;
