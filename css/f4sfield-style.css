@@ -38,8 +38,8 @@ table, .table {
   border: 1px solid #333333;
 }
 
-.table-striped>tbody>tr:nth-of-type(odd) {
-  background-color: #333333;
+.table-striped>tbody>tr:nth-of-type(odd){
+  background-color: #012f48!important;
 }
 
 .table-hover>tbody>tr:hover {
