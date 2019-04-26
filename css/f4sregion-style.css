@@ -226,6 +226,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #cc9900;
 }
 
+.socialmedia{
+  position: relative;
+  height: auto;
+  background: transparent
+}
+
+.socialmedia ul {
+  top: auto;
+  height: auto;
+  transform: initial;
+}
+
 .page-header{
   background: #ffffff;
   color: #0e2e46;
