@@ -240,7 +240,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .socialmedia {
   position: relative;
   height: 100%;
-  background: transparent
+  background: transparent;
+  justify-content: center;
 }
 
 .socialmedia ul {
