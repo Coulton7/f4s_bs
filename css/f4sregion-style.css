@@ -296,3 +296,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .well{
   background-color: #011f2f!important;
 }
+
+@media (max-width: 767px) {
+
+.navbar.container-fluid{
+  margin-top: 0;
+}
+}
