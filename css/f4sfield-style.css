@@ -148,8 +148,8 @@ textarea {
   color: #ebebeb;
 }
 
-.block-search .input-group {
-  display: inline-flex;
+.block-search .input-group .form-control {
+  padding: 10px 16px;
 }
 
 .has-warning .form-control-feedback {
