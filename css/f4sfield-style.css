@@ -188,7 +188,7 @@ textarea {
 .btn-default {
   color: #ffffff;
   background-color: #012f48!important;
-  border-color: #ffffff;
+  border-color: none;
 }
 
 .btn-default:focus,
@@ -201,7 +201,7 @@ textarea {
 .btn-default:hover {
   color: #ffffff;
   background-color: #011f2f!important;
-  border-color: #e0e0e0;
+  border-color: #ffffff;
 }
 
 .btn-default:active,
@@ -308,7 +308,7 @@ fieldset[disabled] .btn-primary.focus {
 .btn-warning {
   color: #ffffff;
   background-color: #bf8f00;
-  border-color: #ffffff;
+  border-color: none;
 }
 
 .btn-warning:focus,
