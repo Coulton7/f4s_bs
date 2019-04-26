@@ -9,7 +9,7 @@
 .table>thead>tr>td,
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
-  border-top: 1px solid #333333;
+  border-top: 1px solid ##003f62;
 }
 
 .table>thead>tr>th {
@@ -148,7 +148,8 @@ textarea {
   color: #ebebeb;
 }
 
-.block-search .input-group .form-control {
+.block-search .input-group .form-control,
+.search-form .input-group .form-control {
   padding: 10px 16px;
 }
 
@@ -742,7 +743,7 @@ button.list-group-item-warning.active:focus {
 }
 
 .panel {
-  background-color: #333333;
+  background-color: ##003f62;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -771,7 +772,7 @@ button.list-group-item-warning.active:focus {
 .panel>.panel-body+.table-responsive,
 .panel>.table+.panel-body,
 .panel>.table-responsive+.panel-body {
-  border-top: 1px solid #333333;
+  border-top: 1px solid ##003f62;
 }
 
 .panel-default>.panel-heading {
