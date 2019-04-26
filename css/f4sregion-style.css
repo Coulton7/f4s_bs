@@ -209,6 +209,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #ffbf00;
 }
 
+.navbar-header{
+  background-color: #ffbf00;
+}
+
 .sticky {
   position: fixed;
   top: 0;
