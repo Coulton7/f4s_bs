@@ -743,7 +743,7 @@ button.list-group-item-warning.active:focus {
 }
 
 .panel {
-  background-color: ##003f62;
+  background-color: #012f48;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -772,11 +772,11 @@ button.list-group-item-warning.active:focus {
 .panel>.panel-body+.table-responsive,
 .panel>.table+.panel-body,
 .panel>.table-responsive+.panel-body {
-  border-top: 1px solid ##003f62;
+  border-top: 1px solid #012f48;
 }
 
 .panel-default>.panel-heading {
-  background-color: #2b2b2b;
+  background-color: #012f48;
   color: #ebebeb;
 }
 
