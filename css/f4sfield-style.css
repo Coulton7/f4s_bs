@@ -84,6 +84,10 @@ table, .table {
   background-color: #034f7a !important;
 }
 
+table a:not(.btn), .table a:not(.btn){
+  text-decoration: none;
+}
+
 .table-hover>tbody>tr>td.warning:hover,
 .table-hover>tbody>tr>th.warning:hover,
 .table-hover>tbody>tr.warning:hover>td,
