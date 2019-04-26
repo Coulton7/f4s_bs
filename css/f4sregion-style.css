@@ -233,6 +233,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin: auto;
 }
 
+.navbar.container-fluid {
+  margin-top: 0;
+}
+
 .socialmedia {
   position: relative;
   height: auto;
