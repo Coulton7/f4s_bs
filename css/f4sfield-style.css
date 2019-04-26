@@ -81,7 +81,7 @@ table, .table {
 .table>thead>tr.info>th,
 .table>tbody>tr.info>th,
 .table>tfoot>tr.info>th {
-  background-color: #034f7a!important;
+  background-color: #034f7a !important;
 }
 
 .table-hover>tbody>tr>td.warning:hover,
@@ -105,7 +105,6 @@ table .text-muted,
 .form-control {
   color: #003f62;
   height: inherit;
-
 }
 
 .has-warning .help-block,
@@ -149,7 +148,7 @@ textarea {
   color: #ebebeb;
 }
 
-.block-search .input-group{
+.block-search .input-group {
   display: inline-flex;
 }
 
@@ -242,7 +241,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #ffbf00!important;
+  background-color: #ffbf00 !important;
   border-color: #ffffff;
 }
 
@@ -255,7 +254,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #cc9900!important;
+  background-color: #cc9900 !important;
   border-color: #e0e0e0;
 }
 
@@ -457,7 +456,6 @@ fieldset[disabled] .btn-link:focus {
 .nav-tabs.nav-justified>.active>a:focus {
   border: 1px solid #333333;
 }
-
 
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus {
@@ -835,7 +833,7 @@ button.list-group-item-warning.active:focus {
   border-bottom: 1px solid #1f1f1f;
 }
 
-.view-frontpage .view-content .views-row{
+.view-frontpage .view-content .views-row {
   border-bottom: 1px solid #e5e5e7;
 }
 
