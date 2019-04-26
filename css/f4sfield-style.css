@@ -177,32 +177,28 @@ textarea {
 
 .btn-default {
   color: #ffffff;
-  background-color: #222222;
+  background-color: #012f48!important;
   border-color: #ffffff;
 }
 
 .btn-default:focus,
 .btn-default.focus {
   color: #ffffff;
-  background-color: #090909;
+  background-color: #011f2f;
   border-color: #bfbfbf;
 }
 
 .btn-default:hover {
   color: #ffffff;
-  background-color: #090909;
+  background-color: #011f2f!important;
   border-color: #e0e0e0;
-}
-
-.btn-default:hover {
-  background-color: #1b1b1b;
 }
 
 .btn-default:active,
 .btn-default.active,
 .open>.dropdown-toggle.btn-default {
   color: #ffffff;
-  background-color: #090909;
+  background-color: #011f2f;
   background-image: none;
   border-color: #e0e0e0;
 }
