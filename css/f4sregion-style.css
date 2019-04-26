@@ -236,6 +236,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   top: auto;
   height: auto;
   transform: initial;
+  position: relative;
 }
 
 .socialmedia ul li:nth-child(1) a {
