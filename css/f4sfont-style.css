@@ -55,7 +55,7 @@ p {
 }
 
 .text-muted {
-  color: #4e5d6c;
+  color: #d0cccc;
 }
 
 .text-primary {
@@ -106,7 +106,7 @@ a.bg-warning:focus {
 }
 
 caption {
-  color: #4e5d6c;
+  color: #d0cccc;
 }
 
 label{
@@ -130,7 +130,7 @@ a.label:focus {
 }
 
 .label-default {
-  background-color: #4e5d6c;
+  background-color: #d0cccc;
 }
 
 .label-default[href]:hover,
