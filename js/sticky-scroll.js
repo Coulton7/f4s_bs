@@ -5,7 +5,7 @@ $(document).ready(function () {
     var nav = $('.navbar'),
         body = $('.main-container'),
         windowScreen = $(window),
-        navOffset = nav.offset().top,
+        navOffset = nav.offset().bottom,
         previousScroll = 0;
 
     if (windowScreen.scrollTop() >= navOffset && !nav.hasClass('sticky')) {
