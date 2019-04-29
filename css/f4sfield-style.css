@@ -267,7 +267,7 @@ fieldset[disabled] .btn-default.focus {
 }
 
 .btn-primary:hover {
-  color: #ffffff;
+  color: #ffffff!important;
   background-color: #cc9900 !important;
   border-color: #e0e0e0;
 }
