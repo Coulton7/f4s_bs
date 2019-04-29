@@ -21,8 +21,8 @@ a:hover {
   text-decoration: none!important;
 }
 
-.navbar-nav li a:hover{
-  color: #ebebeb;
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
+  color: #ebebeb!important;
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small,
