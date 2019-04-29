@@ -107,8 +107,11 @@ table .text-muted,
 }
 
 .form-control {
-  color: #535454;
   height: inherit;
+}
+
+.form-control.text-full{
+  color: #535354;
 }
 
 .has-warning .help-block,
