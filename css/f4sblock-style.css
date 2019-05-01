@@ -59,3 +59,9 @@ blockquote.pull-right .small:after {
 .jumbotron>hr {
   border-top-color: #1a1a1a;
 }
+
+@media screen and (max-width: 767px){
+  #block-block-9 .row-eq-height{
+    display: block;
+  }
+}
