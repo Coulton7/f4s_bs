@@ -405,6 +405,14 @@ fieldset[disabled] .btn-link:focus {
   box-shadow: none;
 }
 
+.file a{
+  color:#ebebeb;
+}
+
+.file a:hover{
+  color: #ffffff;
+}
+
 .dropdown-menu {
   background-color: #333333;
   background-clip: padding-box;
