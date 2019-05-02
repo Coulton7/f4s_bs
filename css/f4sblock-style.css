@@ -90,6 +90,18 @@ blockquote.pull-right .small:after {
   background-color: #012f48;
 }
 
+.product-widget:hover{
+  border: 2px solid #034f7a;
+}
+
+.product-image-widget{
+  transition: all .2s ease-in-out;
+}
+
+.product-image-widget:hover{
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 767px){
   #block-block-9 .row-eq-height{
     display: block;
