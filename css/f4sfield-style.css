@@ -875,6 +875,18 @@ button.list-group-item-warning.active:focus {
   text-align: center;
 }
 
+.field-name-field-download .field-items .odd,
+.field-name-field-download .field-items .even{
+  margin-bottom: 1em;
+}
+
+.field-name-field-download .field-items .file{
+  color: #ffffff!important;
+  background-color: #ffbf00 !important;
+  border-color: #ffffff;
+  padding: 8px 16px;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #ebebeb;
