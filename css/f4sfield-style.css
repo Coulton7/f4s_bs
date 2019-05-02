@@ -862,11 +862,11 @@ button.list-group-item-warning.active:focus {
   border-bottom: 1px solid #e5e5e7;
 }
 
-.view-custom-recent-news .view-content .views-row ul li a, .view-menu-product-taxonomy-term .view-content ul li a, .view-related-content .view-content ul li a{
+.view-custom-recent-news .view-content ul li a, .view-menu-product-taxonomy-term .view-content ul li a, .view-related-content .view-content ul li a{
   color: #ffbf00;
 }
 
-.view-custom-recent-news .view-content .views-row ul li a:hover, .view-menu-product-taxonomy-term .view-content ul li a:hover, .view-related-content .view-content ul li a:hover{
+.view-custom-recent-news .view-content ul li a:hover, .view-menu-product-taxonomy-term .view-content ul li a:hover, .view-related-content .view-content ul li a:hover{
   background-color: #012f48;
   border-bottom: none;
 }
