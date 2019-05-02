@@ -60,6 +60,22 @@ blockquote.pull-right .small:after {
   border-top-color: #1a1a1a;
 }
 
+.light-blue{
+  background-color: #034f7a;
+}
+
+.lighter-blue{
+  background-color: #035f93;
+}
+
+.dark-blue{
+  background-color: #012f48;
+}
+
+.darker-blue{
+  background-color: #011f2f;
+}
+
 @media screen and (max-width: 767px){
   #block-block-9 .row-eq-height{
     display: block;
