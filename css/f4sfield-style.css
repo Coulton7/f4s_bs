@@ -868,8 +868,9 @@ button.list-group-item-warning.active:focus {
   color: #ffbf00;
 }
 
-.view-custom-recent-news .view-content .views-row, .view-menu-product-taxonomy-term .view-content ul li:hover{
+.view-custom-recent-news .view-content .views-row, .view-menu-product-taxonomy-term .view-content ul li a:hover{
   background-color: #012f48;
+  border-bottom: none;
 }
 
 @media (max-width: 767px) {
