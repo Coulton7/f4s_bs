@@ -887,6 +887,12 @@ button.list-group-item-warning.active:focus {
   padding: 8px 16px;
 }
 
+.field-name-field-download .field-items .file:hover{
+  color: #ffffff!important;
+  background-color: #cc9900 !important;
+  border-color: #e0e0e0;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #ebebeb;
