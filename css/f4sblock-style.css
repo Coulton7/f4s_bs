@@ -90,6 +90,10 @@ blockquote.pull-right .small:after {
   background-color: #012f48;
 }
 
+.product-widget{
+  overflow: hidden;
+}
+
 .product-widget:hover{
   border: 2px solid #034f7a;
 }
