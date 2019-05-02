@@ -862,8 +862,10 @@ button.list-group-item-warning.active:focus {
 .view-custom-recent-news .view-content .views-row,
 .view-menu-product-taxonomy-term .view-content .views-row{
   border-bottom: 1px solid #e5e5e7;
-  padding: 0.3em;
-  list-style-type: none;
+}
+
+.view-custom-recent-news .view-content .views-row, .view-menu-product-taxonomy-term .view-content ul li a{
+  color: #ffbf00;
 }
 
 .view-custom-recent-news .view-content .views-row, .view-menu-product-taxonomy-term .view-content ul li:hover{
