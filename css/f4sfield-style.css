@@ -866,6 +866,10 @@ button.list-group-item-warning.active:focus {
   list-style-type: none;
 }
 
+.view-custom-recent-news .view-content .views-row, .view-menu-product-taxonomy-term .view-content ul li:hover{
+  background-color: #012f48;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #ebebeb;

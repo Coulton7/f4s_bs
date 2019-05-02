@@ -80,6 +80,17 @@ blockquote.pull-right .small:after {
   color: inherit;
 }
 
+.block-menu .nav li a{
+  border-bottom: 1px solid #e5e5e7;
+  padding: 0.3em;
+  text-align: center;
+  color: #ffbf00;
+}
+
+.block-menu .nav li a:hover{
+  background-color: #012f48;
+}
+
 @media screen and (max-width: 767px){
   #block-block-9 .row-eq-height{
     display: block;
