@@ -62,18 +62,22 @@ blockquote.pull-right .small:after {
 
 .light-blue{
   background-color: #034f7a;
+  color: inherit;
 }
 
 .lighter-blue{
   background-color: #035f93;
+  color: inherit;
 }
 
 .dark-blue{
   background-color: #012f48;
+  color: inherit;
 }
 
 .darker-blue{
   background-color: #011f2f;
+  color: inherit;
 }
 
 @media screen and (max-width: 767px){
