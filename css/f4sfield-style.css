@@ -895,7 +895,7 @@ button.list-group-item-warning.active:focus {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #1f6193;
+  color: #1f6193!important;
 }
 
 @media (max-width: 767px) {
