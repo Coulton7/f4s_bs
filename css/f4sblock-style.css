@@ -112,6 +112,9 @@ blockquote.pull-right .small:after {
 }
 
 @media screen and (max-width: 767px){
+  #block-block-13 .btn-blue{
+    margin-bottom: 2em
+  }
   #block-block-9 .row-eq-height{
     display: block;
   }

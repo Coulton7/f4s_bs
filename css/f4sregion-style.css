@@ -326,6 +326,26 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   .breadcrumb {
     padding: 0px 15px;
   }
+
+  .mobile-call-us{
+    text-align: center;
+  }
+
+  .socialmedia ul li:nth-child(1) a {
+    margin-right: 1em;
+  }
+  .socialmedia ul li:nth-child(2) a {
+    margin-right: 1em;
+  }
+  .socialmedia ul li:nth-child(3) a {
+    margin-right: 1em;
+  }
+  .socialmedia ul li:nth-child(4) a {
+    margin-right: 1em;
+  }
+  .socialmedia ul li:nth-child(5) a {
+    margin-right: 1em;
+  }
 }
 
 @media (min-width: 768px) {
