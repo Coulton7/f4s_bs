@@ -898,15 +898,8 @@ button.list-group-item-warning.active:focus {
   color: #1f6193!important;
 }
 
-.slick-dots li.slick-active button:hover::before {
-  color: #1f6193!important;
-}
-
-.slick-prev:before {
-  color: #1f6193!important;
-}
-.slick-next:before {
-  color: #1f6193!important;
+.slick-dots li button:hover:before, .slick-dots li button:focus:before{
+    color: #1f6193!important;
 }
 
 
