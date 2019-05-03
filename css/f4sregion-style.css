@@ -283,7 +283,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 .page-header {
   background: #ebebeb;
-  background-image: radial-gradient(farthest-side at bottom center, #000, #ebebeb 55% );
+  background-image: radial-gradient(circle at 50% 141%, #cbcbcb, #ebebeb 22% );
   color: #0e2e46;
   margin-top: -1px;
   padding: 1.5em;
