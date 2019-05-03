@@ -894,6 +894,10 @@ button.list-group-item-warning.active:focus {
   border-color: #e0e0e0;
 }
 
+.slick-dots li.slick-active button:before {
+  color: #1f6193;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #ebebeb;
