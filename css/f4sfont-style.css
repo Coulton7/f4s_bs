@@ -176,6 +176,11 @@ a.label:focus {
   color: #0e2e46;
 }
 
+.drop-charcter{
+  bottom: -0.25em;
+  position: relative;
+}
+
 .page-header {
   border-bottom-color: #333333;
 }
