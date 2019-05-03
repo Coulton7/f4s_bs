@@ -172,6 +172,10 @@ a.label:focus {
   color: #bf8f00;
 }
 
+.slick-slide h4, .slick-slide p, .slick-slide ul{
+  color: #535454;
+}
+
 .page-header {
   border-bottom-color: #333333;
 }
