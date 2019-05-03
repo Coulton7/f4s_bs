@@ -902,6 +902,13 @@ button.list-group-item-warning.active:focus {
   color: #1f6193!important;
 }
 
+.slick-prev:before {
+  color: #1f6193!important;
+}
+.slick-next:before {
+  color: #1f6193!important;
+}
+
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
