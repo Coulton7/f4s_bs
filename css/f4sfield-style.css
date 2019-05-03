@@ -858,7 +858,8 @@ button.list-group-item-warning.active:focus {
 .view-frontpage .view-content .views-row ,
 .view-custom-recent-news .view-content .views-row,
 .view-menu-product-taxonomy-term .view-content .views-row,
-.view-related-content .view-content .views-row{
+.view-related-content .view-content .views-row,
+.view-brochures .view-content .views-row{
   border-bottom: 1px solid #e5e5e7;
 }
 
