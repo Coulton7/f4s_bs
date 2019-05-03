@@ -898,6 +898,11 @@ button.list-group-item-warning.active:focus {
   color: #1f6193!important;
 }
 
+.slick-dots li.slick-active button:hover::before {
+  color: #1f6193!important;
+}
+
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #ebebeb;
