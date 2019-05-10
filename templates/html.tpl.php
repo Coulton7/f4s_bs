@@ -69,17 +69,10 @@
   <![endif]-->
   <?php print $scripts; ?>
 
-  <script type="text/javascript">
-
-$( document ).ready(function() {
-  $(".form-select").chosen({
-    disable_search_threshold: 10,
-    no_results_text: "Sorry, no results found."
-  })
-});
-
-
-</script>
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4591194.js"></script>
+  <!-- End of HubSpot Embed Code -->
+  
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
