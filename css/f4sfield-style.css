@@ -406,11 +406,13 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .file a{
-  color:#ebebeb;
+  color:#ffffff;
 }
 
 .file a:hover{
-  color: #ffffff;
+  color: #ebebeb!important;
+  border-bottom: 1px dashed #ebebeb;
+  text-decoration: none;
 }
 
 .dropdown-menu {
