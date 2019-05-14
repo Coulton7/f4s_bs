@@ -85,6 +85,7 @@ table, .table {
 }
 
 table a:not(.btn), .table a:not(.btn){
+  color: #ffbf00;
   text-decoration: none;
 }
 
@@ -98,7 +99,7 @@ table a:not(.btn), .table a:not(.btn){
 
 table a,
 .table a {
-  color: #fff;
+  color: #ffbf00;
 }
 
 table .text-muted,
