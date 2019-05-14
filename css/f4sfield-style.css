@@ -877,6 +877,13 @@ button.list-group-item-warning.active:focus {
 #edit-actions.form-actions.form-wrapper.form-group{
   text-align: center;
 }
+.field-name-field-current-page-title{
+  display: none;
+}
+
+.field-name-field-hidden-form-url{
+  display: none;
+}
 
 .field-name-field-download .field-items .odd,
 .field-name-field-download .field-items .even{
