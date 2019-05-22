@@ -173,7 +173,7 @@ a.label:focus {
 }
 
 .slick-slide h4, .slick-slide p, .slick-slide ul{
-  color: #0e2e46;
+  color: #0e2e46!important;
 }
 
 .drop-character{
