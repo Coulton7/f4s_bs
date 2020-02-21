@@ -92,6 +92,8 @@ blockquote.pull-right .small:after {
 
 .product-widget{
   overflow: hidden;
+  background: transparent!important
+
 }
 
 .product-widget:hover{
