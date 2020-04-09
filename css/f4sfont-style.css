@@ -125,6 +125,11 @@ label {
   color: #ffffff;
 }
 
+.checkbox-label{
+  font-size: inherit;
+  color: #ffffff;
+}
+
 .label {
   color: #ffffff;
   font-size: inherit;
