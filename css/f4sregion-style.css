@@ -356,3 +356,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     padding: 0;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .navbar-nav{
+    padding: 12em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav{
+    padding: 16em;
+  }
+}
