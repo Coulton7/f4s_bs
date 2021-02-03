@@ -352,4 +352,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   .breadcrumb {
     padding: 0px 15px;
   }
+  .navbar-nav{
+    padding: 0;
+  }
 }
