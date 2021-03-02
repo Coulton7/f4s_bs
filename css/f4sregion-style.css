@@ -359,12 +359,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 @media screen and (min-width: 992px) {
   .navbar-nav{
-    padding-left: 10em;
+    padding-left: 2em;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .navbar-nav{
-    padding-left: 16em;
+    padding-left: 10em;
   }
 }
