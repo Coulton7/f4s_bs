@@ -109,6 +109,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: #ffbf00;
   border-color: transparent;
+  background-image: none;
 }
 
 .navbar-inverse .navbar-brand {
@@ -140,6 +141,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav>.active>a:focus {
   color: #ffffff;
   background-color: #e6ac00;
+  background-image: none;
 }
 
 .navbar-inverse .navbar-nav>.disabled>a,
@@ -304,6 +306,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 .well {
   background-color: #011f2f !important;
+  background-image: none;
 }
 
 .section-shadow-menu{

@@ -258,6 +258,7 @@ fieldset[disabled] .btn-default.focus {
   color: #ffffff!important;
   background-color: #ffbf00 !important;
   border-color: #ffffff;
+  background-image: none;
 }
 
 .btn-primary:focus,
@@ -265,12 +266,14 @@ fieldset[disabled] .btn-default.focus {
   color: #ffffff;
   background-color: #cc9900;
   border-color: #bfbfbf;
+  background-image: none;
 }
 
 .btn-primary:hover {
   color: #ffffff!important;
   background-color: #cc9900 !important;
   border-color: #e0e0e0;
+  background-image: none;
 }
 
 .btn-primary:active,
@@ -294,6 +297,7 @@ fieldset[disabled] .btn-default.focus {
   color: #ffffff;
   background-color: #a87e00;
   border-color: #bfbfbf;
+  background-image: none;
 }
 
 .btn-primary.disabled:hover,
@@ -307,6 +311,7 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus {
   background-color: #ffbf00;
   border-color: #ffffff;
+  background-image: none;
 }
 
 .btn-primary .badge {
