@@ -22,8 +22,8 @@ function f4s_bs_css_alter(&$css){
   $css['sites/all/themes/aesbs337/css/block-style.css']['weight']=15;
   $css['sites/all/themes/aesbs337/css/field-style.css']['weight']=16;
   $css['sites/all/themes/aesbs337/css/jquery.scrolling-tabs.min.css']['weight']=17;
-  $css['sites/all/themes/f4s_bs/css/f4sfonts-style.css']['weight']=18;
-  $css['sites/all/themes/f4s_bs/css/f4sregions-style.css']['weight']=19;
+  $css['sites/all/themes/f4s_bs/css/f4sfont-style.css']['weight']=18;
+  $css['sites/all/themes/f4s_bs/css/f4sregion-style.css']['weight']=19;
   $css['sites/all/themes/f4s_bs/css/f4sblock-style.css']['weight']=20;
   $css['sites/all/themes/f4s_bs/css/f4sfield-style.css']['weight']=21;
 }
