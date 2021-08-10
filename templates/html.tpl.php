@@ -69,10 +69,6 @@
   <![endif]-->
   <?php print $scripts; ?>
 
-  <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4591194.js"></script>
-  <!-- End of HubSpot Embed Code -->
-  
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
